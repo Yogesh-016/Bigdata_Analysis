@@ -109,6 +109,7 @@ README.md – Project documentation
 
 Output:
 
+<img width="1316" height="766" alt="Image" src="https://github.com/user-attachments/assets/cb7c3143-1298-4e79-a1aa-cf0da6a7440f" />
 
 ✅ Conclusion
 
