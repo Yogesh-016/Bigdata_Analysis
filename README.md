@@ -1,121 +1,139 @@
+# 🎬 Big Data Analysis using PySpark
 
-#BIG DATA ANALYSIS
+## 📋 Internship Details
 
-*COMPANY *: CODTECH IT SOLUTIONS
+| Field | Details |
+|---|---|
+| **Company** | CodTech IT Solutions |
+| **Intern Name** | Yogesh S |
+| **Intern ID** | CTIS3967 |
+| **Domain** | Data Analysis |
+| **Duration** | 4 Weeks |
+| **Mentor** | Neela Santosh |
 
-*NAME *: Yogesh S
+---
 
-*INTERN ID *: CTIS3967
+## 📌 Project Overview
 
-*DOMAIN *: Data Analysis
+This project performs large-scale **Big Data Analysis** on a movie ratings dataset using **PySpark**. It demonstrates scalable data processing, user behavior analysis, and insight extraction from millions of records using distributed computing.
 
-*DURATION *: 4 WEEEKS
+---
 
-*MENTOR *: NEELA SANTOSH
+## 🗂️ Dataset Description
 
+The dataset contains movie ratings submitted by users over time.
 
-🎬 Big Data Analysis using PySpark
-📌 Project Overview
+| Column | Description |
+|---|---|
+| `CustId` | Unique customer/user identifier |
+| `MovieId` | Unique movie identifier |
+| `Rating` | User rating (scale: 1–5) |
+| `Date` | Date the rating was submitted |
 
-This project focuses on performing Big Data Analysis on a large-scale movie ratings dataset using PySpark. The objective is to demonstrate scalable data processing, analyze user behavior, and extract meaningful insights from millions of records.
+**Dataset Characteristics:**
+- Millions of records
+- Thousands of unique users and movies
+- Optimized for big data processing workflows
 
-🗂 Dataset Description
+---
 
-The dataset contains movie ratings provided by users over time.
+## 🛠️ Tech Stack
 
-Columns:
+| Tool / Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| PySpark | Distributed data processing |
+| Apache Spark | Big data engine |
+| Google Colab | Cloud-based execution environment |
 
-CustId – Unique identifier for customers/users
+---
 
-MovieId – Unique identifier for movies
+## ⚙️ Project Workflow
 
-Rating – Rating given by the user (1 to 5)
+```
+1. Initialize Spark Session
+        ↓
+2. Load Dataset into Spark DataFrame
+        ↓
+3. Data Cleaning & Preprocessing
+        ↓
+4. Exploratory Data Analysis (EDA)
+        ↓
+5. User Activity & Rating Analysis
+        ↓
+6. Time-Based Trend Analysis
+        ↓
+7. Insight Extraction & Reporting
+```
 
-Date – Date when the rating was provided
+---
 
-Dataset Characteristics:
+## 📊 Key Analyses Performed
 
-Millions of records
+- ⭐ Rating distribution analysis
+- 🎥 Average rating per movie
+- 🏆 Top-rated movies identification
+- 👤 Most active users analysis
+- 📅 Year-wise rating trend analysis
 
-Thousands of users and movies
+---
 
-Suitable for big data processing
+## 📈 Key Insights
 
-🛠 Tools & Technologies Used
+> **1.** Majority of users rate movies between **3 and 5**, reflecting overall positive sentiment.
 
-Python
+> **2.** A **small fraction of users** contribute a disproportionately large share of total ratings (power users).
 
-PySpark
+> **3.** Certain movies **consistently receive high average ratings**, indicating strong viewer preferences.
 
-Google Colab
+> **4.** Movie rating activity **increased significantly post-2000**, suggesting platform growth.
 
-Apache Spark
+> **5.** PySpark **efficiently handled millions of records**, validating its suitability for big data workloads.
 
-⚙️ Project Workflow
+---
 
-Initialized Spark Session using PySpark
+## 📁 Project Structure
 
-Loaded large dataset into Spark DataFrame
+```
+📦 Big-Data-Analysis/
+├── 📓 Big_Data_Analysis.ipynb   # Main PySpark analysis notebook
+├── 📊 movie_ratings.csv         # Movie ratings dataset
+└── 📄 README.md                 # Project documentation
+```
 
-Performed data cleaning and preprocessing
+---
 
-Conducted exploratory data analysis (EDA)
+## 🚀 How to Run
 
-Analyzed user activity and movie ratings
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/big-data-analysis.git
 
-Performed time-based analysis
+# 2. Open the notebook in Google Colab or locally
+# 3. Install dependencies (if running locally)
+pip install pyspark
 
-Extracted insights from big data processing
+# 4. Run all cells in Big_Data_Analysis.ipynb
+```
 
-Demonstrated scalability using Spark
+---
 
-📊 Key Analysis Performed
+## ✅ Conclusion
 
-Rating distribution analysis
+This project demonstrates the power of **PySpark** in processing and analyzing large-scale datasets efficiently. Through distributed computing, it uncovers meaningful patterns in user behavior and movie rating trends — showcasing how big data tools can transform raw data into actionable insights.
 
-Average rating per movie
+---
 
-Identification of top-rated movies
+## 👤 Author
 
-Most active users analysis
+**Yogesh S**
+Aspiring Data Analyst | Big Data Enthusiast
 
-Year-wise trend analysis of ratings
+---
 
-📈 Insights Derived
-
-Majority of users rate movies between 3 and 5, indicating positive feedback.
-
-A small number of users contribute a large portion of total ratings.
-
-Certain movies consistently receive high average ratings.
-
-Movie ratings increased significantly after the year 2000.
-
-PySpark efficiently handled millions of records, proving its scalability for big data tasks.
-
-🚀 Platform Used
-
-Google Colab for cloud-based execution
-
-PySpark for distributed data processing
-
-📁 Project Files
-
-Big_Data_Analysis.ipynb – PySpark analysis notebook
-
-movie_ratings.csv – Dataset
-
-README.md – Project documentation
+*Internship Project — CodTech IT Solutions | Data Analysis Domain*
 
 Output:
 
 <img width="1316" height="766" alt="Image" src="https://github.com/user-attachments/assets/cb7c3143-1298-4e79-a1aa-cf0da6a7440f" />
 
-✅ Conclusion
-
-This project demonstrates how PySpark can be used to efficiently process and analyze large datasets. The analysis provides valuable insights into user behavior and movie rating trends while showcasing the power of distributed computing.
-
-🔗 Author
-
-Yogesh S
-Aspiring Data Analyst | Big Data Enthusiast
